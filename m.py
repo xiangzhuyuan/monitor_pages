@@ -33,6 +33,13 @@ def log_change(change_log_file, old_content, new_content):
         log.write(new_content + '\n')
         log.write('---\n')
 
+def log_no_change(change_log_file):
+    with open(change_log_file, 'w', encoding='utf-8') as log:
+        log.write('---\n')
+        log.write(f'Timestamp: {datetime.now()}\n')
+        log.write('No changes detected.\n')
+        log.write('---\n')
+        
 def send_notification(url):
     response = requests.get(url)
     if response.status_code == 200:
@@ -61,6 +68,7 @@ def main():
         send_notification(notification_url)
     else:
         print("No changes detected.")
+        log_no_change(change_log_file)
 
 if __name__ == '__main__':
     main()
