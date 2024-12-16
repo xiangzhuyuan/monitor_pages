@@ -1,5 +1,6 @@
 import requests
 import os
+from datetime import datetime
 
 # URL of the webpage to monitor
 url = 'https://www.r-wellness.com/fuji5/'
