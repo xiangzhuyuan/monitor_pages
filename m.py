@@ -2,7 +2,7 @@ import requests
 import os
 
 # URL of the webpage to monitor
-url = "https://www.r-wellness.com/fuji5/"
+url = "https://www.xiangzhuyuan.com/a.html"
 
 # Path to the file where the old content is stored
 file_path = "old_content.txt"
