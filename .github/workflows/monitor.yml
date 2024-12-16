@@ -2,7 +2,7 @@ name: Monitor Webpage
 
 on:
   schedule:
-    - cron: '* */1 * * *'  # Runs 1 hour
+    - cron: '0 1 * * *'
   push:
     branches:
       - main
