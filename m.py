@@ -25,7 +25,7 @@ def save_content(file_path, content):
         file.write(content)
 
 def log_change(change_log_file, old_content, new_content):
-    with open(change_log_file, 'a', encoding='utf-8') as log:
+    with open(change_log_file, 'w', encoding='utf-8') as log:
         log.write('---\n')
         log.write('Old content:\n')
         log.write(old_content + '\n')
