@@ -26,7 +26,7 @@ jobs:
         pip install requests
 
     - name: Run monitor script
-      run: python monitor_webpage.py
+      run: python m.py
 
     - name: Commit changes
       run: |
