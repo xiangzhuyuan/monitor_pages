@@ -2,45 +2,56 @@ import requests
 import os
 
 # URL of the webpage to monitor
+#url = 'https://www.r-wellness.com/fuji5/'
 url = "https://www.xiangzhuyuan.com/a.html"
+# Filenames for storing old content and change logs
+old_content_file = 'old_content.txt'
+change_log_file = 'change_log.txt'
 
-# Path to the file where the old content is stored
-file_path = "old_content.txt"
-
-# Fetch the webpage content
-def fetch_webpage(url):
+def fetch_webpage_content(url):
     response = requests.get(url)
     response.raise_for_status()
     return response.text
 
-# Load the old content from the file
 def load_old_content(file_path):
-    if os.path.exists(file_path):
-        with open(file_path, 'r') as file:
-            return file.read()
-    return ""
+    if not os.path.exists(file_path):
+        return None
+    with open(file_path, 'r', encoding='utf-8') as file:
+        return file.read()
 
-# Save the new content to the file
-def save_new_content(file_path, content):
-    with open(file_path, 'w') as file:
+def save_content(file_path, content):
+    with open(file_path, 'w', encoding='utf-8') as file:
         file.write(content)
 
-# Main function to monitor webpage changes
-def monitor_webpage(url, file_path):
+def log_change(change_log_file, old_content, new_content):
+    with open(change_log_file, 'a', encoding='utf-8') as log:
+        log.write('---\n')
+        log.write('Old content:\n')
+        log.write(old_content + '\n')
+        log.write('New content:\n')
+        log.write(new_content + '\n')
+        log.write('---\n')
+
+def main():
     try:
-        new_content = fetch_webpage(url)
-        old_content = load_old_content(file_path)
+        new_content = fetch_webpage_content(url)
+    except Exception as e:
+        print(f"Error fetching webpage content: {e}")
+        return
 
-        if old_content != new_content:
-            print("Webpage content changed!")
-            with open("change_log.txt", 'a') as log_file:
-                log_file.write("Webpage content changed!\n")
-            save_new_content(file_path, new_content)
-        else:
-            print("No changes detected.")
+    old_content = load_old_content(old_content_file)
 
-    except requests.exceptions.RequestException as e:
-        print(f"Error fetching the webpage: {e}")
+    if old_content is None:
+        print("Old content file not found. Creating a new one.")
+        save_content(old_content_file, new_content)
+        return
 
-# Run the monitor function
-monitor_webpage(url, file_path)
+    if new_content != old_content:
+        print("Content has changed!")
+        log_change(change_log_file, old_content, new_content)
+        save_content(old_content_file, new_content)
+    else:
+        print("No changes detected.")
+
+if __name__ == '__main__':
+    main()
