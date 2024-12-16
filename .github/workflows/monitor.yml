@@ -29,9 +29,11 @@ jobs:
       run: python m.py
 
     - name: Commit changes
+      env:
+        ACTIONS_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
       run: |
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
         git add old_content.txt change_log.txt
-        git commit -m 'Update webpage content' || echo "No changes to commit"
+        git push https://github-actions:${{ secrets.ACTIONS_TOKEN }}@github.com/${{ github.repository }}.git
         git push
