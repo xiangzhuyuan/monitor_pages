@@ -8,3 +8,14 @@ b
 a
 
 ---
+---
+Old content:
+b
+a
+
+New content:
+b
+a
+c
+
+---
