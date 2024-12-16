@@ -2,11 +2,12 @@ import requests
 import os
 
 # URL of the webpage to monitor
-#url = 'https://www.r-wellness.com/fuji5/'
-url = "https://www.xiangzhuyuan.com/a.html"
+url = 'https://www.r-wellness.com/fuji5/'
+
 # Filenames for storing old content and change logs
 old_content_file = 'old_content.txt'
 change_log_file = 'change_log.txt'
+notification_url = 'https://api.day.app/Rfaj33ucMe8nZksDJKPEib/fuji'
 
 def fetch_webpage_content(url):
     response = requests.get(url)
@@ -32,6 +33,13 @@ def log_change(change_log_file, old_content, new_content):
         log.write(new_content + '\n')
         log.write('---\n')
 
+def send_notification(url):
+    response = requests.get(url)
+    if response.status_code == 200:
+        print("Notification sent successfully.")
+    else:
+        print(f"Failed to send notification. Status code: {response.status_code}")
+
 def main():
     try:
         new_content = fetch_webpage_content(url)
@@ -50,6 +58,7 @@ def main():
         print("Content has changed!")
         log_change(change_log_file, old_content, new_content)
         save_content(old_content_file, new_content)
+        send_notification(notification_url)
     else:
         print("No changes detected.")
 
