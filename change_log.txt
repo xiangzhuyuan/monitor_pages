@@ -258,6 +258,13 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                           <dt style="background: #36264f;
     color: white;width: 150px;padding: 8px 0;
     text-align: center;
+    font-weight: bold;">12.26<small>&nbsp;Thu</small></dt>
+              <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/20241226/">
+                  年末年始休業のお知らせ                </a></dd>
+
+                          <dt style="background: #36264f;
+    color: white;width: 150px;padding: 8px 0;
+    text-align: center;
     font-weight: bold;">12.09<small>&nbsp;Mon</small></dt>
               <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/20241209/">
                   エントリー締め切りのお知らせ                </a></dd>
@@ -282,13 +289,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
     font-weight: bold;">11.01<small>&nbsp;Fri</small></dt>
               <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/241101/">
                   先着特典終了のお知らせ（オリジナルTシャツ）                </a></dd>
-
-                          <dt style="background: #36264f;
-    color: white;width: 150px;padding: 8px 0;
-    text-align: center;
-    font-weight: bold;">10.24<small>&nbsp;Thu</small></dt>
-              <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/120km-sparta/">
-                  SPARTATHLON出場権利について                </a></dd>
 
                               </dl>
         <div class="centering">
@@ -902,7 +902,11 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
         <img src="/fuji5/2025/wp-content/themes/fuji5/images/image7.jpg" width="145" ></a>
         
 <a href="https://www.softbank.jp/" target="_blank" rel="noopener noreferrer">
-        <img src="/fuji5/2025/wp-content/themes/fuji5/images/image8.jpg"  width="145" ></a>    </div>
+        <img src="/fuji5/2025/wp-content/themes/fuji5/images/image8.jpg"  width="145" ></a>
+        
+               
+<a href="https://www.mana-energy.bar/" target="_blank" rel="noopener noreferrer">
+        <img src="/fuji5/2025/wp-content/themes/fuji5/images/manabar_banner.jpg"  width="145" ></a>    </div>
   </article>
 
 
@@ -938,6 +942,10 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
         
 <a href="https://www.softbank.jp/" target="_blank" rel="noopener noreferrer">
         <img src="/fuji5/2025/wp-content/themes/fuji5/images/image8.jpg"  width="145" ></a>
+        
+        <a href="https://www.mana-energy.bar/" target="_blank" rel="noopener noreferrer">
+        <img src="/fuji5/2025/wp-content/themes/fuji5/images/manabar_banner.jpg"  width="145" ></a>
+        
 </article>
 
 
