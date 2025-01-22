@@ -489,6 +489,9 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 		<p class="copyright ">© 2025 Runner’s Wellness  Co., Ltd. All Rights Reserved.<br>
 			このサイトの運営・管理は株式会社ランナーズ・ウェルネスがおこなっています。当サイト内の画像・テキストなどの無断転載、使用を禁じます</p>
 	</div>
+	
+	<div class="sp" style="margin-top: 40px;"></div>
+
 </footer>
 
 
