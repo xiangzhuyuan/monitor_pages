@@ -491,6 +491,9 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 		<p class="copyright ">© 2025 Runner’s Wellness  Co., Ltd. All Rights Reserved.<br>
 			このサイトの運営・管理は株式会社ランナーズ・ウェルネスがおこなっています。当サイト内の画像・テキストなどの無断転載、使用を禁じます</p>
 	</div>
+	
+	<div class="sp" style="margin-top: 40px;"></div>
+
 </footer>
 
 
@@ -888,7 +891,8 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 
 
     <div class="artcleRight">
-      <a href="https://www.r-wellness.com/world/" target="_blank" rel="noopener noreferrer">
+    
+        <a href="https://www.r-wellness.com/world/" target="_blank" rel="noopener noreferrer">
         <img src="/fuji5/2025/wp-content/themes/fuji5/images/image1.jpg"  width="145" ></a>
 
 <a href="https://www.goldwin.co.jp/tnf/run/" target="_blank" rel="noopener noreferrer">
@@ -914,13 +918,12 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
         
                
 <a href="https://www.mana-energy.bar/" target="_blank" rel="noopener noreferrer">
-        <img src="/fuji5/2025/wp-content/themes/fuji5/images/manabar_banner.jpg"  width="145" ></a>    </div>
+        <img src="/fuji5/2025/wp-content/themes/fuji5/images/manabar_banner.jpg"  width="145" ></a>        
+    </div>
   </article>
 
 
-
-
-  
+        
 <div class="sp" style="position: relative;padding-left: 3%;padding-top: 30px;
     padding-right: 3%;
     background-color: white;">
@@ -935,6 +938,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 
             <a href="https://www.aoyagiuirou.co.jp/" target="_blank" rel="noopener noreferrer">
         <img src="/fuji5/2025/wp-content/themes/fuji5/images/image3.jpg" width="145" ></a>
+       
 
         <a href="https://www.raisins-jp.org/" target="_blank" rel="noopener noreferrer">
         <img src="/fuji5/2025/wp-content/themes/fuji5/images/image4.png" width="145" ></a>
@@ -1058,6 +1062,9 @@ var wpcf7 = {"api":{"root":"https:\/\/www.r-wellness.com\/fuji5\/wp-json\/","nam
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://www.r-wellness.com/fuji5/2025/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.8" id="contact-form-7-js"></script>
+    
+
+
   
 
 <script type="text/javascript" src="https://www.r-wellness.com/fuji5/2025/wp-content/themes/fuji5/js/youtube.js"></script>
