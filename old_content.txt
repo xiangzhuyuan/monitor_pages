@@ -256,6 +256,13 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                           <dt style="background: #36264f;
     color: white;width: 150px;padding: 8px 0;
     text-align: center;
+    font-weight: bold;">01.23<small>&nbsp;Thu</small></dt>
+              <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/20250123/">
+                  密着ドキュメンタリー動画公開のお知らせ                </a></dd>
+
+                          <dt style="background: #36264f;
+    color: white;width: 150px;padding: 8px 0;
+    text-align: center;
     font-weight: bold;">12.26<small>&nbsp;Thu</small></dt>
               <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/20241226/">
                   年末年始休業のお知らせ                </a></dd>
@@ -280,13 +287,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
     font-weight: bold;">11.18<small>&nbsp;Mon</small></dt>
               <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/2024-tour/">
                   ツアーの販売を開始しました                </a></dd>
-
-                          <dt style="background: #36264f;
-    color: white;width: 150px;padding: 8px 0;
-    text-align: center;
-    font-weight: bold;">11.01<small>&nbsp;Fri</small></dt>
-              <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/241101/">
-                  先着特典終了のお知らせ（オリジナルTシャツ）                </a></dd>
 
                               </dl>
         <div class="centering">
@@ -333,20 +333,18 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 	<section class="infoBlock">
 <h3 style="margin-bottom: 3px;">PULSE ARCHIVE</h3>
 
-
 <div class="pc">
-<div style="display: grid; grid-template-columns:1fr 1fr 1fr; gap: 20px; max-width: 100%; margin: 0 auto;">	 
+<div style="display: grid; grid-template-columns:1fr 1fr; gap: 20px; max-width: 100%; margin: 0 auto;">	 
+<a href="https://www.youtube.com/watch?v=0FtZM4Aimxc" target="_blank" rel="noopener noreferrer"><img src="/fuji5/2025/wp-content/themes/fuji5/images/youtube-2024.jpg" style="width: 100%; ">	</a>
 <a href="https://www.youtube.com/watch?v=lrCElGZm5iY" target="_blank" rel="noopener noreferrer"><img src="/fuji5/2025/wp-content/themes/fuji5/images/youtube-3-1.jpg" style="width: 100%; ">	</a>
-<a href="https://www.youtube.com/watch?v=DM72neo-e5Y" target="_blank" rel="noopener noreferrer"><img src="/fuji5/2025/wp-content/themes/fuji5/images/youtube-3-2.jpg" style="width: 100%; ">	</a>
-<a href="https://www.youtube.com/watch?v=BDbU4YJK4uc" target="_blank" rel="noopener noreferrer"><img src="/fuji5/2025/wp-content/themes/fuji5/images/youtube-3-3.jpg" style="width: 100%; ">	</a>
 </div>
 </div>
 
 <div class="sp">
+<a href="https://www.youtube.com/watch?v=0FtZM4Aimxc" target="_blank" rel="noopener noreferrer"><img src="/fuji5/2025/wp-content/themes/fuji5/images/youtube-2024.jpg" style="width: 100%; ">	</a>
 <a href="https://www.youtube.com/watch?v=lrCElGZm5iY" target="_blank" rel="noopener noreferrer"><img src="/fuji5/2025/wp-content/themes/fuji5/images/youtube-3-1.jpg" style="width: 100%; ">	</a>
-<a href="https://www.youtube.com/watch?v=DM72neo-e5Y" target="_blank" rel="noopener noreferrer"><img src="/fuji5/2025/wp-content/themes/fuji5/images/youtube-3-2.jpg" style="width: 100%; ">	</a>
-<a href="https://www.youtube.com/watch?v=BDbU4YJK4uc" target="_blank" rel="noopener noreferrer"><img src="/fuji5/2025/wp-content/themes/fuji5/images/youtube-3-3.jpg" style="width: 100%; ">	</a>
 </div>
+
 							
 </section>
 
