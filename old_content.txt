@@ -359,6 +359,9 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
         
             <a href="https://www.aoyagiuirou.co.jp/" target="_blank" rel="noopener noreferrer">
         <img src="/fuji5/2025/wp-content/themes/fuji5/images/image3.jpg" width="145" ></a>
+        
+              <a href="https://www.garmin.co.jp/" target="_blank" rel="noopener noreferrer">
+        <img src="/fuji5/2025/wp-content/themes/fuji5/images/banner/banner12.jpg" width="145" ></a> 
 
 <a href="https://www.raisins-jp.org/" target="_blank" rel="noopener noreferrer">
         <img src="/fuji5/2025/wp-content/themes/fuji5/images/image4.png" width="145" ></a>
@@ -398,6 +401,8 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
             <a href="https://www.aoyagiuirou.co.jp/" target="_blank" rel="noopener noreferrer">
         <img src="/fuji5/2025/wp-content/themes/fuji5/images/image3.jpg" width="145" ></a>
        
+             <a href="https://www.garmin.co.jp/" target="_blank" rel="noopener noreferrer">
+        <img src="/fuji5/2025/wp-content/themes/fuji5/images/banner/banner12.jpg" width="145" ></a> 
 
         <a href="https://www.raisins-jp.org/" target="_blank" rel="noopener noreferrer">
         <img src="/fuji5/2025/wp-content/themes/fuji5/images/image4.png" width="145" ></a>
