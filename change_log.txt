@@ -372,7 +372,8 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
         
 <a href="https://www.kurodama.co.jp/" target="_blank" rel="noopener noreferrer">
         <img src="/fuji5/2025/wp-content/themes/fuji5/images/image5.jpg" width="145" ></a>
-
+        
+        
 <a href="https://shonangold.base.ec/" target="_blank" rel="noopener noreferrer">
         <img src="/fuji5/2025/wp-content/themes/fuji5/images/image7.jpg" width="145" ></a>
         
@@ -414,6 +415,8 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
         
 <a href="https://www.kurodama.co.jp/" target="_blank" rel="noopener noreferrer">
         <img src="/fuji5/2025/wp-content/themes/fuji5/images/image5.jpg" width="145" ></a>
+        
+                
 
 <a href="https://shonangold.base.ec/" target="_blank" rel="noopener noreferrer">
         <img src="/fuji5/2025/wp-content/themes/fuji5/images/image7.jpg" width="145" ></a>
@@ -788,9 +791,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 
   <article>
     <div class="artcleLeft">
-    
-    <a href="https://www.r-wellness.com/fuji5/support-program/"><img src="https://www.r-wellness.com/fuji5/2025/wp-content/themes/fuji5/images/bnr-runtrip-pc.jpg" alt="" class="pc" style="width: 100%;margin-bottom: 5px;border-radius: 9px !important;box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .2);"></a>
-    <a href="https://www.r-wellness.com/fuji5/support-program/"><img src="https://www.r-wellness.com/fuji5/2025/wp-content/themes/fuji5/images/bnr-runtrip-sp.jpg" alt="" class="sp" style="width: 100%;margin-bottom: 5px;border-radius: 9px !important;box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .2);"></a>
+
     
       <h2 class="bottom-10" style="margin-top: 15px;margin-bottom: 5px;">INFORMATION</h2>
       <h3 style="margin-bottom: 15px;">お知らせ</h3>
@@ -888,6 +889,10 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <a href="https://www.youtube.com/watch?v=lrCElGZm5iY" target="_blank" rel="noopener noreferrer"><img src="/fuji5/2025/wp-content/themes/fuji5/images/youtube-3-1.jpg" style="width: 100%; ">	</a>
 </div>
 
+<div style="margin-top: 32px;">
+    <a href="https://www.r-wellness.com/fuji5/support-program/"><img src="https://www.r-wellness.com/fuji5/2025/wp-content/themes/fuji5/images/bnr-runtrip-pc.jpg" alt="" class="pc" style="width: 100%;margin-bottom: 5px;border-radius: 9px !important;box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .2);"></a>
+    <a href="https://www.r-wellness.com/fuji5/support-program/"><img src="https://www.r-wellness.com/fuji5/2025/wp-content/themes/fuji5/images/bnr-runtrip-sp.jpg" alt="" class="sp" style="width: 100%;margin-bottom: 5px;border-radius: 9px !important;box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .2);"></a>
+</div>
 							
 </section>
 
