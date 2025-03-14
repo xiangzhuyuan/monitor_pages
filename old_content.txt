@@ -372,8 +372,10 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
         
 <a href="https://www.kurodama.co.jp/" target="_blank" rel="noopener noreferrer">
         <img src="/fuji5/2025/wp-content/themes/fuji5/images/image5.jpg" width="145" ></a>
-        
-        
+
+<a href="https://jp.sunkist.com/" target="_blank" rel="noopener noreferrer">
+        <img src="/fuji5/2025/wp-content/themes/fuji5/images/banner/banner_sunkist.jpg" width="145" ></a>
+
 <a href="https://shonangold.base.ec/" target="_blank" rel="noopener noreferrer">
         <img src="/fuji5/2025/wp-content/themes/fuji5/images/image7.jpg" width="145" ></a>
         
@@ -416,7 +418,8 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <a href="https://www.kurodama.co.jp/" target="_blank" rel="noopener noreferrer">
         <img src="/fuji5/2025/wp-content/themes/fuji5/images/image5.jpg" width="145" ></a>
         
-                
+<a href="https://jp.sunkist.com/" target="_blank" rel="noopener noreferrer">
+        <img src="/fuji5/2025/wp-content/themes/fuji5/images/banner/banner_sunkist.jpg" width="145" ></a>
 
 <a href="https://shonangold.base.ec/" target="_blank" rel="noopener noreferrer">
         <img src="/fuji5/2025/wp-content/themes/fuji5/images/image7.jpg" width="145" ></a>
