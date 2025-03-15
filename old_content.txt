@@ -240,7 +240,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 </div>
 
 
-
   <article>
     <div class="artcleLeft">
 
@@ -293,19 +292,22 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
       </section>
 
 		<section class="infoBlock">
+		
+
+
 <h3 style="margin-bottom: 3px;">ウルトラマラソン完走アイテム紹介</h3>
 
 <div class="pc">
-<div style="display: grid; grid-template-columns:1fr 1fr; gap: 20px; max-width: 100%; margin: 0 auto;">	 
-<a href="https://www.youtube.com/watch?v=TUve1McjXC4" target="_blank" rel="noopener noreferrer"><img src="/fuji5/2025/wp-content/themes/fuji5/images/youtube-1-1.jpg" style="width: 100%; ">	</a>
-<a href="https://www.youtube.com/watch?v=SsIXBmqjn_M" target="_blank" rel="noopener noreferrer"><img src="/fuji5/2025/wp-content/themes/fuji5/images/youtube-1-2.jpg" style="width: 100%; ">	</a>
+<div style="max-width: 50%; margin: 0 auto;">	 
+<a href="https://www.youtube.com/watch?v=-68GHSqWlS0" target="_blank" rel="noopener noreferrer"><img src="/fuji5/2025/wp-content/themes/fuji5/images/youtube-2025-1.png" style="width: 100%; ">	</a>
 </div>
 </div>
 
 <div class="sp">
-<a href="https://www.youtube.com/watch?v=TUve1McjXC4" target="_blank" rel="noopener noreferrer"><img src="/fuji5/2025/wp-content/themes/fuji5/images/youtube-1-1.jpg" style="width: 100%; ">	</a>
-<a href="https://www.youtube.com/watch?v=SsIXBmqjn_M" target="_blank" rel="noopener noreferrer"><img src="/fuji5/2025/wp-content/themes/fuji5/images/youtube-1-2.jpg" style="width: 100%; ">	</a>
+<a href="https://www.youtube.com/watch?v=-68GHSqWlS0" target="_blank" rel="noopener noreferrer"><img src="/fuji5/2025/wp-content/themes/fuji5/images/youtube-2025-1.png" style="width: 100%; ">	</a>
 </div>
+
+
 
 </section>
 
