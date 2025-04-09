@@ -259,6 +259,13 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                           <dt style="background: #36264f;
     color: white;width: 150px;padding: 8px 0;
     text-align: center;
+    font-weight: bold;">04.09<small>&nbsp;Wed</small></dt>
+              <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/20250409/">
+                  グループトライアル名簿掲載のお知らせ                </a></dd>
+
+                          <dt style="background: #36264f;
+    color: white;width: 150px;padding: 8px 0;
+    text-align: center;
     font-weight: bold;">03.28<small>&nbsp;Fri</small></dt>
               <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/250328/">
                   参加案内公開のお知らせ                </a></dd>
@@ -283,13 +290,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
     font-weight: bold;">12.26<small>&nbsp;Thu</small></dt>
               <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/20241226/">
                   年末年始休業のお知らせ                </a></dd>
-
-                          <dt style="background: #36264f;
-    color: white;width: 150px;padding: 8px 0;
-    text-align: center;
-    font-weight: bold;">12.09<small>&nbsp;Mon</small></dt>
-              <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/20241209/">
-                  エントリー締め切りのお知らせ                </a></dd>
 
                               </dl>
         <div class="centering">
