@@ -259,6 +259,13 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                           <dt style="background: #36264f;
     color: white;width: 150px;padding: 8px 0;
     text-align: center;
+    font-weight: bold;">04.10<small>&nbsp;Thu</small></dt>
+              <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/250410">
+                  【オールスポーツコミュニティより】当日の撮影についてのお知らせ！                </a></dd>
+
+                          <dt style="background: #36264f;
+    color: white;width: 150px;padding: 8px 0;
+    text-align: center;
     font-weight: bold;">04.09<small>&nbsp;Wed</small></dt>
               <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/20250409/">
                   グループトライアル名簿掲載のお知らせ                </a></dd>
@@ -283,13 +290,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
     font-weight: bold;">01.23<small>&nbsp;Thu</small></dt>
               <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/20250123/">
                   密着ドキュメンタリー動画公開のお知らせ                </a></dd>
-
-                          <dt style="background: #36264f;
-    color: white;width: 150px;padding: 8px 0;
-    text-align: center;
-    font-weight: bold;">12.26<small>&nbsp;Thu</small></dt>
-              <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/20241226/">
-                  年末年始休業のお知らせ                </a></dd>
 
                               </dl>
         <div class="centering">
@@ -366,7 +366,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 
     <div class="artcleRight">
     
-    <a href="https://www.r-wellness.com/world/" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.r-wellness.com/worldheritage/" target="_blank" rel="noopener noreferrer">
         <img src="/fuji5/2025/wp-content/themes/fuji5/images/image1.jpg"  width="145" ></a>
 
 <a href="https://www.goldwin.co.jp/tnf/run/" target="_blank" rel="noopener noreferrer">
@@ -416,7 +416,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 
 <article class="sp spFooterBanners2">
 
-<a href="https://www.r-wellness.com/world/" target="_blank" rel="noopener noreferrer">
+<a href="https://www.r-wellness.com/worldheritage/" target="_blank" rel="noopener noreferrer">
         <img src="/fuji5/2025/wp-content/themes/fuji5/images/image1.jpg"  width="145" ></a>
 
 <a href="https://www.goldwin.co.jp/tnf/run/" target="_blank" rel="noopener noreferrer">
