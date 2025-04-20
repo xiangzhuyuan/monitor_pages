@@ -259,6 +259,13 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                           <dt style="background: #36264f;
     color: white;width: 150px;padding: 8px 0;
     text-align: center;
+    font-weight: bold;">04.19<small>&nbsp;Sat</small></dt>
+              <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/250419/">
+                  大会直前の最終可否判断について                </a></dd>
+
+                          <dt style="background: #36264f;
+    color: white;width: 150px;padding: 8px 0;
+    text-align: center;
     font-weight: bold;">04.18<small>&nbsp;Fri</small></dt>
               <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/250418-4/">
                   大会直前の第１回可否判断について                </a></dd>
@@ -283,13 +290,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
     font-weight: bold;">04.18<small>&nbsp;Fri</small></dt>
               <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/0418-1/">
                   マッサージブースについて                </a></dd>
-
-                          <dt style="background: #36264f;
-    color: white;width: 150px;padding: 8px 0;
-    text-align: center;
-    font-weight: bold;">04.16<small>&nbsp;Wed</small></dt>
-              <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/20250416/">
-                  グループトライアル最終名簿掲載のお知らせ                </a></dd>
 
                               </dl>
         <div class="centering">
@@ -474,7 +474,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 			<div class="footerSNS">
 					<a href="https://www.facebook.com/fuji5.lakes/" target="_blank" rel="noopener noreferrer"><img src="https://www.r-wellness.com/fuji5/2025/wp-content/themes/fuji5/images/icon_fb.png" alt="" /></a>
 			<a href="https://www.instagram.com/fuji5lakes_ultra/" target="_blank" rel="noopener noreferrer"><img src="https://www.r-wellness.com/fuji5/2025/wp-content/themes/fuji5/images/icon_insta.png" alt="" /></a>
-			<a href="https://twitter.com/fuji5lakes" target="_blank" rel="noopener noreferrer"><img src="https://www.r-wellness.com/fuji5/2025/wp-content/themes/fuji5/images/icon_tw.png" alt="" /></a>
+			<a href="https://x.com/fuji5lakes" target="_blank" rel="noopener noreferrer"><img src="https://www.shonan-kokusai.jp/wp-content/themes/20th/images/x_icon.png" style="width: 28px;" alt="" /></a>
 			<a href="https://www.youtube.com/channel/UCjhL7HDYP7_bjkXMtnsNdFQ" target="_blank" rel="noopener noreferrer"><img src="https://www.r-wellness.com/fuji5/2025/wp-content/themes/fuji5/images/icon_youtube.png" alt="" /></a>
 		</div>
 		</div>
