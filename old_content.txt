@@ -144,7 +144,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 		<img src="https://www.r-wellness.com/fuji5/2025/wp-content/themes/fuji5/images/spmenu.png" alt="" />
 	</div>
 	<menu>
-		<a href="https://www.r-wellness.com/fuji5/participant-info/" class="entry">参加案内</a>
+		<a href="https://www.r-wellness.com/fuji5/news/breaking-results/" target="_brank" rel="noopener noreferrer" class="entry">RESULT</a>
 	<a href="https://www.r-wellness.com/fuji5/contact/" class="contact">CONTACT</a>
 	</menu>
 		</div>
@@ -259,6 +259,27 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                           <dt style="background: #36264f;
     color: white;width: 150px;padding: 8px 0;
     text-align: center;
+    font-weight: bold;">04.20<small>&nbsp;Sun</small></dt>
+              <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/breaking-results/">
+                  速報記録公開のお知らせ                </a></dd>
+
+                          <dt style="background: #36264f;
+    color: white;width: 150px;padding: 8px 0;
+    text-align: center;
+    font-weight: bold;">04.20<small>&nbsp;Sun</small></dt>
+              <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/250420-2/">
+                  大会の御礼・次回の開催予定について                </a></dd>
+
+                          <dt style="background: #36264f;
+    color: white;width: 150px;padding: 8px 0;
+    text-align: center;
+    font-weight: bold;">04.20<small>&nbsp;Sun</small></dt>
+              <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/250420-1/">
+                  ランナーズアップデート（記録確認）について                </a></dd>
+
+                          <dt style="background: #36264f;
+    color: white;width: 150px;padding: 8px 0;
+    text-align: center;
     font-weight: bold;">04.19<small>&nbsp;Sat</small></dt>
               <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/250419/">
                   大会直前の最終可否判断について                </a></dd>
@@ -269,27 +290,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
     font-weight: bold;">04.18<small>&nbsp;Fri</small></dt>
               <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/250418-4/">
                   大会直前の第１回可否判断について                </a></dd>
-
-                          <dt style="background: #36264f;
-    color: white;width: 150px;padding: 8px 0;
-    text-align: center;
-    font-weight: bold;">04.18<small>&nbsp;Fri</small></dt>
-              <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/240418-3/">
-                  大会当日の「火入れ（山焼き）」について                </a></dd>
-
-                          <dt style="background: #36264f;
-    color: white;width: 150px;padding: 8px 0;
-    text-align: center;
-    font-weight: bold;">04.18<small>&nbsp;Fri</small></dt>
-              <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/0418-2/">
-                  ボランティア協力団体掲載のお知らせ                </a></dd>
-
-                          <dt style="background: #36264f;
-    color: white;width: 150px;padding: 8px 0;
-    text-align: center;
-    font-weight: bold;">04.18<small>&nbsp;Fri</small></dt>
-              <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/0418-1/">
-                  マッサージブースについて                </a></dd>
 
                               </dl>
         <div class="centering">
