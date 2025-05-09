@@ -144,7 +144,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 		<img src="https://www.r-wellness.com/fuji5/2025/wp-content/themes/fuji5/images/spmenu.png" alt="" />
 	</div>
 	<menu>
-		<a href="https://www.r-wellness.com/fuji5/news/breaking-results/" target="_brank" rel="noopener noreferrer" class="entry">RESULT</a>
+		<a href="https://www.r-wellness.com/fuji5/news/final-results2025/" target="_brank" rel="noopener noreferrer" class="entry">RESULT</a>
 	<a href="https://www.r-wellness.com/fuji5/contact/" class="contact">CONTACT</a>
 	</menu>
 		</div>
@@ -227,7 +227,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <section class="indexBanner" style="margin-top:10px">
 <ul class="slide-items">
 
-<li><a href="https://www.r-wellness.com/fuji5/news/breaking-results/"><img src="https://www.r-wellness.com/fuji5/2025/wp-content/themes/fuji5/images/topbnr_pc_result.jpg" alt="" style="border-radius: 9px !important;box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .2);"></a></li>
+<li><a href="https://www.r-wellness.com/fuji5/news/final-results2025/"><img src="https://www.r-wellness.com/fuji5/2025/wp-content/themes/fuji5/images/topbnr_pc_result.jpg" alt="" style="border-radius: 9px !important;box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .2);"></a></li>
 
 <li><a href="https://www.r-wellness.com/fuji5/under25/"><img src="https://www.r-wellness.com/fuji5/2025/wp-content/themes/fuji5/images/topbnr_pc_02.jpg" alt="" style="border-radius: 9px !important;box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .2);"></a></li>
 <li><a href="https://www.r-wellness.com/fuji5/features/"><img src="https://www.r-wellness.com/fuji5/2025/wp-content/themes/fuji5/images/topbnr_pc_03.jpg" alt="" style="border-radius: 9px !important;box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .2);"></a></li>
@@ -239,7 +239,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <section class="indexBanner" style="margin-top:10px">
 <ul class="slide-items">
 
-<li><a href="https://www.r-wellness.com/fuji5/news/breaking-results/"><img src="https://www.r-wellness.com/fuji5/2025/wp-content/themes/fuji5/images/topbnr_sp_result.jpg" alt="" style="padding-bottom: 0;border-radius: 9px !important;box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .2);"></a></li>
+<li><a href="https://www.r-wellness.com/fuji5/news/final-results2025/"><img src="https://www.r-wellness.com/fuji5/2025/wp-content/themes/fuji5/images/topbnr_sp_result.jpg" alt="" style="padding-bottom: 0;border-radius: 9px !important;box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .2);"></a></li>
 
 <li><a href="https://www.r-wellness.com/fuji5/under25/"><img src="https://www.r-wellness.com/fuji5/2025/wp-content/themes/fuji5/images/topbnr_sp_02.jpg" alt="" style="padding-bottom: 0;border-radius: 9px !important;box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .2);"></a></li>
 <li><a href="https://www.r-wellness.com/fuji5/features/"><img src="https://www.r-wellness.com/fuji5/2025/wp-content/themes/fuji5/images/topbnr_sp_03.jpg" alt="" style="padding-bottom: 0;border-radius: 9px !important;box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .2);"></a></li>
@@ -256,6 +256,13 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 
         <dl style="background: none;">
           
+                          <dt style="background: #36264f;
+    color: white;width: 150px;padding: 8px 0;
+    text-align: center;
+    font-weight: bold;">05.08<small>&nbsp;Thu</small></dt>
+              <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/final-results2025/">
+                  確報記録公開のお知らせ                </a></dd>
+
                           <dt style="background: #36264f;
     color: white;width: 150px;padding: 8px 0;
     text-align: center;
@@ -283,13 +290,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
     font-weight: bold;">04.20<small>&nbsp;Sun</small></dt>
               <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/250420-1/">
                   ランナーズアップデート（記録確認）について                </a></dd>
-
-                          <dt style="background: #36264f;
-    color: white;width: 150px;padding: 8px 0;
-    text-align: center;
-    font-weight: bold;">04.19<small>&nbsp;Sat</small></dt>
-              <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/250419/">
-                  大会直前の最終可否判断について                </a></dd>
 
                               </dl>
         <div class="centering">
