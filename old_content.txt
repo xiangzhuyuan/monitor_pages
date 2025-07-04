@@ -259,6 +259,13 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                           <dt style="background: #36264f;
     color: white;width: 150px;padding: 8px 0;
     text-align: center;
+    font-weight: bold;">06.20<small>&nbsp;Fri</small></dt>
+              <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/present250620/">
+                  アンケート抽選 当選者発表                </a></dd>
+
+                          <dt style="background: #36264f;
+    color: white;width: 150px;padding: 8px 0;
+    text-align: center;
     font-weight: bold;">05.08<small>&nbsp;Thu</small></dt>
               <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/final-results2025/">
                   確報記録公開のお知らせ                </a></dd>
@@ -283,13 +290,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
     font-weight: bold;">04.20<small>&nbsp;Sun</small></dt>
               <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/250420-2/">
                   大会の御礼・次回の開催予定について                </a></dd>
-
-                          <dt style="background: #36264f;
-    color: white;width: 150px;padding: 8px 0;
-    text-align: center;
-    font-weight: bold;">04.20<small>&nbsp;Sun</small></dt>
-              <dd style="max-width: 600px;">&nbsp;&nbsp;<a href="https://www.r-wellness.com/fuji5/news/250420-1/">
-                  ランナーズアップデート（記録確認）について                </a></dd>
 
                               </dl>
         <div class="centering">
