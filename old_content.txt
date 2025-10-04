@@ -299,10 +299,16 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
       </section>
 
 		<section class="infoBlock">
-		
 
+<h3 style="margin-bottom: 3px;">おすすめシューズ紹介</h3>
 
-<h3 style="margin-bottom: 3px;">ウルトラマラソン完走アイテム紹介</h3>
+  <div style="max-width: 100%; width: 500px;margin: 0 auto;">
+    <a href="https://youtu.be/n35zQmTLzj0?si=6-NO1WB0XmT3hTKC" target="_blank" rel="noopener noreferrer">
+      <img src="https://www.r-wellness.com/fuji5/2025/wp-content/themes/fuji5/images/youtube-20251003.jpg" style="width: 100%; border-radius: 9px !important; box-shadow: 0 1px 4px 0 rgba(0,0,0,.2);">
+    </a>
+  </div>
+
+<h3 style="margin-bottom: 3px; margin-top: 32px;">ウルトラマラソン完走アイテム紹介</h3>
 
 <div class="pc">
 <div style="display: grid; grid-template-columns:1fr 1fr; gap: 20px; max-width: 100%; margin: 0 auto;">	 
