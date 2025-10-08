@@ -125,7 +125,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 :where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
 :root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
 </style>
-<link rel='stylesheet' id='contact-form-7-css' href='https://www.r-wellness.com/fuji5/2025/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1' type='text/css' media='all' />
 <link rel='stylesheet' id='wp-pagenavi-css' href='https://www.r-wellness.com/fuji5/2025/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
 <!--n2css--><!--n2js--><link rel="https://api.w.org/" href="https://www.r-wellness.com/fuji5/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.r-wellness.com/fuji5/2025/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 6.8.3" />
@@ -549,34 +548,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 <script type="speculationrules">
 {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/fuji5\/*"},{"not":{"href_matches":["\/fuji5\/2025\/wp-*.php","\/fuji5\/2025\/wp-admin\/*","\/fuji5\/2025\/wp-content\/uploads\/*","\/fuji5\/2025\/wp-content\/*","\/fuji5\/2025\/wp-content\/plugins\/*","\/fuji5\/2025\/wp-content\/themes\/fuji5\/*","\/fuji5\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
 </script>
-<script type="text/javascript" src="https://www.r-wellness.com/fuji5/2025/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
-<script type="text/javascript" src="https://www.r-wellness.com/fuji5/2025/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
-<script type="text/javascript" id="wp-i18n-js-after">
-/* <![CDATA[ */
-wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://www.r-wellness.com/fuji5/2025/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1" id="swv-js"></script>
-<script type="text/javascript" id="contact-form-7-js-translations">
-/* <![CDATA[ */
-( function( domain, translations ) {
-	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
-	localeData[""].domain = domain;
-	wp.i18n.setLocaleData( localeData, domain );
-} )( "contact-form-7", {"translation-revision-date":"2025-06-27 09:47:49+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=1; plural=0;","lang":"ja_JP"},"This contact form is placed in the wrong place.":["\u3053\u306e\u30b3\u30f3\u30bf\u30af\u30c8\u30d5\u30a9\u30fc\u30e0\u306f\u9593\u9055\u3063\u305f\u4f4d\u7f6e\u306b\u7f6e\u304b\u308c\u3066\u3044\u307e\u3059\u3002"],"Error:":["\u30a8\u30e9\u30fc:"]}},"comment":{"reference":"includes\/js\/index.js"}} );
-/* ]]> */
-</script>
-<script type="text/javascript" id="contact-form-7-js-before">
-/* <![CDATA[ */
-var wpcf7 = {
-    "api": {
-        "root": "https:\/\/www.r-wellness.com\/fuji5\/wp-json\/",
-        "namespace": "contact-form-7\/v1"
-    }
-};
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://www.r-wellness.com/fuji5/2025/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1" id="contact-form-7-js"></script>
 
 
 
