@@ -3,11 +3,12 @@ import os
 from datetime import datetime
 
 # URL of the webpage to monitor
-url = 'https://www.r-wellness.com/fuji5/'
+url = ['https://www.r-wellness.com/fuji5/',
+       'https://www.r-wellness.com/nobeyama/', 
+       'https://www.r-wellness.com/takayama/', 
+       'https://www.r-wellness.com/tango/', 
+       'https://www.r-wellness.com/nara/']
 
-# Filenames for storing old content and change logs
-old_content_file = 'old_content.txt'
-change_log_file = 'change_log.txt'
 notification_url = 'https://api.day.app/Rfaj33ucMe8nZksDJKPEib/fuji'
 
 def fetch_webpage_content(url):
@@ -25,32 +26,34 @@ def save_content(file_path, content):
     with open(file_path, 'w', encoding='utf-8') as file:
         file.write(content)
 
-def log_change(change_log_file, old_content, new_content):
-    with open(change_log_file, 'w', encoding='utf-8') as log:
-        log.write('---\n')
-        log.write('Old content:\n')
-        log.write(old_content + '\n')
-        log.write('New content:\n')
-        log.write(new_content + '\n')
-        log.write('---\n')
+def log_change(log_file, url, old_content, new_content):
+    with open(log_file, 'a', encoding='utf-8') as log:  # ✅ 改成 append
+        log.write(f'\n--- {datetime.now()} ---\n')
+        log.write(f'Change detected at {url}\n')
+        log.write('Old (first 300 chars):\n')
+        log.write(old_content[:300] + '\n')
+        log.write('New (first 300 chars):\n')
+        log.write(new_content[:300] + '\n')
 
-def log_no_change(change_log_file):
-    with open(change_log_file, 'w', encoding='utf-8') as log:
-        log.write('---\n')
-        log.write(f'Timestamp: {datetime.now()}\n')
-        log.write('No changes detected.\n')
-        log.write('---\n')
-        
-def send_notification(url):
-    response = requests.get(url)
-    if response.status_code == 200:
-        print("Notification sent successfully.")
-    else:
-        print(f"Failed to send notification. Status code: {response.status_code}")
-
-def main():
+def send_notification(url, site_name):
     try:
-        new_content = fetch_webpage_content(url)
+        # 在通知标题里带上 site_name
+        r = requests.get(f"{url}/{site_name}")
+        if r.status_code == 200:
+            print(f"Notification sent for {site_name}.")
+        else:
+            print(f"Failed to send notification for {site_name}.")
+    except Exception as e:
+        print(f"Notification error: {e}")
+
+def main(u):
+    # ✅ 文件名根据网址区分
+    safe_name = u.replace("https://", "").replace("http://", "").replace("/", "_")
+    old_content_file = f'old_{safe_name}.txt'
+    change_log_file = f'change_{safe_name}.log'
+
+    try:
+        new_content = fetch_webpage_content(u)
     except Exception as e:
         print(f"Error fetching webpage content: {e}")
         return
@@ -58,18 +61,18 @@ def main():
     old_content = load_old_content(old_content_file)
 
     if old_content is None:
-        print("Old content file not found. Creating a new one.")
+        print(f"First time fetching {u}, creating old content file.")
         save_content(old_content_file, new_content)
         return
 
     if new_content != old_content:
-        print("Content has changed!")
-        log_change(change_log_file, old_content, new_content)
+        print(f"🔔 Content changed at {u}")
+        log_change(change_log_file, u, old_content, new_content)
         save_content(old_content_file, new_content)
-        send_notification(notification_url)
+        send_notification(notification_url, safe_name)
     else:
-        print("No changes detected.")
-        log_no_change(change_log_file)
+        print(f"No change detected for {u}")
 
 if __name__ == '__main__':
-    main()
+    for u in urls:
+        main(u)
