@@ -3,7 +3,7 @@ import os
 from datetime import datetime
 
 # URL of the webpage to monitor
-url = ['https://www.r-wellness.com/fuji5/',
+urls = ['https://www.r-wellness.com/fuji5/',
        'https://www.r-wellness.com/nobeyama/', 
        'https://www.r-wellness.com/takayama/', 
        'https://www.r-wellness.com/tango/', 
