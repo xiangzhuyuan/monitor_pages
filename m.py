@@ -113,7 +113,7 @@ def send_notification(url, site_name):
         print(f"Notification error: {e}")
 
 def main(u):
-    write_to_file("change_log.txt", "start")
+    write_to_file_with_timestamp("change_log.txt", "start")
     # Always use text-only comparison (visible text extracted from HTML)
     text_only = True
 
@@ -153,7 +153,7 @@ def main(u):
         send_notification(notification_url, safe_name)
     else:
         print(f"No change detected for {u} (mode=text-only)")
-    write_to_file("change_log.txt", "end")
+    write_to_file_with_timestamp("change_log.txt", "end")
 if __name__ == '__main__':
     for u in urls:
         main(u)
