@@ -15,6 +15,26 @@ urls = ['https://www.r-wellness.com/fuji5/',
 
 notification_url = 'https://api.day.app/Rfaj33ucMe8nZksDJKPEib/fuji'
 
+def write_to_file_with_timestamp(file_path, content, mode='a', encoding='utf-8'):
+    """
+    将内容写入文件，并在内容前加上时间戳。
+    
+    参数：
+    - file_path: 文件路径
+    - content: 要写入的内容（字符串）
+    - mode: 文件模式，默认 'a' 追加，'w' 覆盖
+    - encoding: 文件编码
+    """
+    timestamp = datetime.now().strftime("[%Y-%m-%d %H:%M:%S]")
+    content_with_timestamp = f"{timestamp} {content}\n"
+    
+    try:
+        with open(file_path, mode, encoding=encoding) as f:
+            f.write(content_with_timestamp)
+        print(f"✅ 内容已写入 {file_path}")
+    except Exception as e:
+        print(f"❌ 写入文件失败: {e}")
+
 def fetch_webpage_content(url):
     response = requests.get(url)
     response.raise_for_status()
@@ -93,6 +113,7 @@ def send_notification(url, site_name):
         print(f"Notification error: {e}")
 
 def main(u):
+    write_to_file("change_log.txt", "start")
     # Always use text-only comparison (visible text extracted from HTML)
     text_only = True
 
@@ -132,7 +153,7 @@ def main(u):
         send_notification(notification_url, safe_name)
     else:
         print(f"No change detected for {u} (mode=text-only)")
-
+    write_to_file("change_log.txt", "end")
 if __name__ == '__main__':
     for u in urls:
         main(u)
