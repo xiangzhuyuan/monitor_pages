@@ -1,6 +1,10 @@
 import requests
 import os
 from datetime import datetime
+import difflib
+import re
+
+from bs4 import BeautifulSoup
 
 # URL of the webpage to monitor
 urls = ['https://www.r-wellness.com/fuji5/',
@@ -26,52 +30,108 @@ def save_content(file_path, content):
     with open(file_path, 'w', encoding='utf-8') as file:
         file.write(content)
 
-def log_change(log_file, url, old_content, new_content):
-    with open(log_file, 'a', encoding='utf-8') as log:  # ✅ 改成 append
+def extract_visible_text(html):
+    """
+    Extract visible text from HTML using BeautifulSoup, remove scripts/styles,
+    normalize whitespace and collapse multiple blank lines.
+    """
+    soup = BeautifulSoup(html, 'html.parser')
+
+    # remove script/style elements
+    for s in soup(['script', 'style', 'noscript', 'iframe']):
+        s.decompose()
+
+    text = soup.get_text(separator='\n', strip=True)
+
+    # Normalize whitespace: trim leading/trailing spaces on lines, collapse multiple blank lines
+    lines = [line.strip() for line in text.splitlines()]
+    normalized = '\n'.join(lines)
+    normalized = re.sub(r'\n\s*\n+', '\n\n', normalized).strip()
+    return normalized
+
+def log_change(log_file, url, old_content, new_content, context_lines=3, text_only=True):
+    safe_name = url.replace("https://", "").replace("http://", "").replace("/", "_")
+    fromfile = f'old_{safe_name}'
+    tofile = f'new_{safe_name}'
+
+    old_lines = old_content.splitlines(keepends=True)
+    new_lines = new_content.splitlines(keepends=True)
+
+    diff_lines = list(difflib.unified_diff(
+        old_lines,
+        new_lines,
+        fromfile=fromfile,
+        tofile=tofile,
+        n=context_lines,
+        lineterm=''
+    ))
+
+    with open(log_file, 'a', encoding='utf-8') as log:
         log.write(f'\n--- {datetime.now()} ---\n')
         log.write(f'Change detected at {url}\n')
-        log.write('Old (first 300 chars):\n')
-        log.write(old_content[:300] + '\n')
-        log.write('New (first 300 chars):\n')
-        log.write(new_content[:300] + '\n')
+        log.write(f'Diff mode: {"text-only" if text_only else "raw html"}\n')
+        if diff_lines:
+            log.write('Unified diff (context lines = %d):\n' % context_lines)
+            for line in diff_lines:
+                log.write(line + '\n')
+        else:
+            log.write('No diff produced by difflib — including short snippets instead.\n')
+            log.write('Old (first 300 chars):\n')
+            log.write(old_content[:300] + '\n')
+            log.write('New (first 300 chars):\n')
+            log.write(new_content[:300] + '\n')
 
 def send_notification(url, site_name):
     try:
-        # 在通知标题里带上 site_name
+        # notification URL expects /site_name appended
         r = requests.get(f"{url}/{site_name}")
         if r.status_code == 200:
             print(f"Notification sent for {site_name}.")
         else:
-            print(f"Failed to send notification for {site_name}.")
+            print(f"Failed to send notification for {site_name}. Status: {r.status_code}")
     except Exception as e:
         print(f"Notification error: {e}")
 
 def main(u):
-    # ✅ 文件名根据网址区分
+    # Always use text-only comparison (visible text extracted from HTML)
+    text_only = True
+
     safe_name = u.replace("https://", "").replace("http://", "").replace("/", "_")
     old_content_file = f'old_{safe_name}.txt'
     change_log_file = f'change_{safe_name}.log'
 
     try:
-        new_content = fetch_webpage_content(u)
+        new_content_raw = fetch_webpage_content(u)
     except Exception as e:
         print(f"Error fetching webpage content: {e}")
         return
 
-    old_content = load_old_content(old_content_file)
+    # Compare visible text extracted from the raw HTML
+    if text_only:
+        new_compare = extract_visible_text(new_content_raw)
+    else:
+        new_compare = new_content_raw
 
-    if old_content is None:
-        print(f"First time fetching {u}, creating old content file.")
-        save_content(old_content_file, new_content)
+    old_content_raw = load_old_content(old_content_file)
+
+    if old_content_raw is None:
+        print(f"First time fetching {u}, creating old content file (raw HTML).")
+        save_content(old_content_file, new_content_raw)
         return
 
-    if new_content != old_content:
-        print(f"🔔 Content changed at {u}")
-        log_change(change_log_file, u, old_content, new_content)
-        save_content(old_content_file, new_content)
+    if text_only:
+        old_compare = extract_visible_text(old_content_raw)
+    else:
+        old_compare = old_content_raw
+
+    if new_compare != old_compare:
+        print(f"🔔 Content changed at {u} (mode=text-only)")
+        log_change(change_log_file, u, old_compare, new_compare, text_only=text_only)
+        # Always save the raw HTML as the canonical "old" file so future runs still work
+        save_content(old_content_file, new_content_raw)
         send_notification(notification_url, safe_name)
     else:
-        print(f"No change detected for {u}")
+        print(f"No change detected for {u} (mode=text-only)")
 
 if __name__ == '__main__':
     for u in urls:
