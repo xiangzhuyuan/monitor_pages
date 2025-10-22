@@ -117,5 +117,6 @@ def main(u):
     else:
         print(f"No change detected")
 if __name__ == '__main__':
+    write_to_file_with_timestamp("change_log.txt", 'execute')       
     for u in urls:
         main(u)
