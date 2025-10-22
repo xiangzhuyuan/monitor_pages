@@ -90,7 +90,7 @@ def log_change(log_file, url, old_content, new_content):
         log.write(f'\n--- {datetime.now()} ---\n')
         log.write(f'Change detected at {url}\n')
         if diff_lines:
-            log.write('Unified diff (context lines = %d):\n' % context_lines)
+            log.write('Unified diff (context lines = %d):\n' % 5)
             for line in diff_lines:
                 log.write(line + '\n')
 
