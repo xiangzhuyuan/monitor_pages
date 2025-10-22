@@ -69,7 +69,7 @@ def extract_visible_text(html):
     normalized = re.sub(r'\n\s*\n+', '\n\n', normalized).strip()
     return normalized
 
-def log_change(log_file, url, old_content, new_content, context_lines=3, text_only=True):
+def log_change(log_file, url, old_content, new_content):
     safe_name = url.replace("https://", "").replace("http://", "").replace("/", "_")
     fromfile = f'old_{safe_name}'
     tofile = f'new_{safe_name}'
@@ -82,24 +82,17 @@ def log_change(log_file, url, old_content, new_content, context_lines=3, text_on
         new_lines,
         fromfile=fromfile,
         tofile=tofile,
-        n=context_lines,
+        n=5,
         lineterm=''
     ))
 
     with open(log_file, 'a', encoding='utf-8') as log:
         log.write(f'\n--- {datetime.now()} ---\n')
         log.write(f'Change detected at {url}\n')
-        log.write(f'Diff mode: {"text-only" if text_only else "raw html"}\n')
         if diff_lines:
             log.write('Unified diff (context lines = %d):\n' % context_lines)
             for line in diff_lines:
                 log.write(line + '\n')
-        else:
-            log.write('No diff produced by difflib — including short snippets instead.\n')
-            log.write('Old (first 300 chars):\n')
-            log.write(old_content[:300] + '\n')
-            log.write('New (first 300 chars):\n')
-            log.write(new_content[:300] + '\n')
 
 def send_notification(url, site_name):
     try:
@@ -113,10 +106,6 @@ def send_notification(url, site_name):
         print(f"Notification error: {e}")
 
 def main(u):
-    write_to_file_with_timestamp("change_log.txt", "start")
-    # Always use text-only comparison (visible text extracted from HTML)
-    text_only = True
-
     safe_name = u.replace("https://", "").replace("http://", "").replace("/", "_")
     old_content_file = f'old_{safe_name}.txt'
     change_log_file = f'change_{safe_name}.log'
@@ -126,34 +115,25 @@ def main(u):
     except Exception as e:
         print(f"Error fetching webpage content: {e}")
         return
-
-    # Compare visible text extracted from the raw HTML
-    if text_only:
-        new_compare = extract_visible_text(new_content_raw)
-    else:
-        new_compare = new_content_raw
-
+    
+    new_compare = extract_visible_text(new_content_raw)
+    
     old_content_raw = load_old_content(old_content_file)
 
     if old_content_raw is None:
-        print(f"First time fetching {u}, creating old content file (raw HTML).")
-        save_content(old_content_file, new_content_raw)
+        print(f"First time fetching {u}, creating old content file (text only).")
+        save_content(old_content_file, new_compare)
         return
 
-    if text_only:
-        old_compare = extract_visible_text(old_content_raw)
-    else:
-        old_compare = old_content_raw
-
+    old_compare = extract_visible_text(old_content_raw)
+       
     if new_compare != old_compare:
         print(f"🔔 Content changed at {u} (mode=text-only)")
-        log_change(change_log_file, u, old_compare, new_compare, text_only=text_only)
-        # Always save the raw HTML as the canonical "old" file so future runs still work
-        save_content(old_content_file, new_content_raw)
+        log_change(change_log_file, u, old_compare, new_compare)
+        save_content(old_content_file, new_compare)
         send_notification(notification_url, safe_name)
     else:
         print(f"No change detected for {u} (mode=text-only)")
-    write_to_file_with_timestamp("change_log.txt", "end")
 if __name__ == '__main__':
     for u in urls:
         main(u)
