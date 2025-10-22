@@ -16,15 +16,6 @@ urls = ['https://www.r-wellness.com/fuji5/',
 notification_url = 'https://api.day.app/Rfaj33ucMe8nZksDJKPEib/fuji'
 
 def write_to_file_with_timestamp(file_path, content, mode='a', encoding='utf-8'):
-    """
-    将内容写入文件，并在内容前加上时间戳。
-    
-    参数：
-    - file_path: 文件路径
-    - content: 要写入的内容（字符串）
-    - mode: 文件模式，默认 'a' 追加，'w' 覆盖
-    - encoding: 文件编码
-    """
     timestamp = datetime.now().strftime("[%Y-%m-%d %H:%M:%S]")
     content_with_timestamp = f"{timestamp} {content}\n"
     
@@ -40,7 +31,7 @@ def fetch_webpage_content(url):
     response.raise_for_status()
     return response.text
 
-def load_old_content(file_path):
+def load_content(file_path):
     if not os.path.exists(file_path):
         return None
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -51,10 +42,6 @@ def save_content(file_path, content):
         file.write(content)
 
 def extract_visible_text(html):
-    """
-    Extract visible text from HTML using BeautifulSoup, remove scripts/styles,
-    normalize whitespace and collapse multiple blank lines.
-    """
     soup = BeautifulSoup(html, 'html.parser')
 
     # remove script/style elements
@@ -69,10 +56,9 @@ def extract_visible_text(html):
     normalized = re.sub(r'\n\s*\n+', '\n\n', normalized).strip()
     return normalized
 
-def log_change(log_file, url, old_content, new_content):
-    safe_name = url.replace("https://", "").replace("http://", "").replace("/", "_")
-    fromfile = f'old_{safe_name}'
-    tofile = f'new_{safe_name}'
+def log_change(log_file, name, old_content, new_content):
+    fromfile = f'old_{name}'
+    tofile = f'new_{name}'
 
     old_lines = old_content.splitlines(keepends=True)
     new_lines = new_content.splitlines(keepends=True)
@@ -118,22 +104,18 @@ def main(u):
     
     new_compare = extract_visible_text(new_content_raw)
     
-    old_content_raw = load_old_content(old_content_file)
-
-    if old_content_raw is None:
+    old_compare = load_content(old_content_file)
+    if old_compare is None:
         print(f"First time fetching {u}, creating old content file (text only).")
         save_content(old_content_file, new_compare)
         return
-
-    old_compare = extract_visible_text(old_content_raw)
-       
+           
     if new_compare != old_compare:
-        print(f"🔔 Content changed at {u} (mode=text-only)")
-        log_change(change_log_file, u, old_compare, new_compare)
+        log_change(change_log_file, safe_name, old_compare, new_compare)
         save_content(old_content_file, new_compare)
         send_notification(notification_url, safe_name)
     else:
-        print(f"No change detected for {u} (mode=text-only)")
+        print(f"No change detected")
 if __name__ == '__main__':
     for u in urls:
         main(u)
