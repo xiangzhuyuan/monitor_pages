@@ -74,7 +74,7 @@ def log_change(log_file, name, old_content, new_content):
 
     with open(log_file, 'a', encoding='utf-8') as log:
         log.write(f'\n--- {datetime.now()} ---\n')
-        log.write(f'Change detected at {url}\n')
+        log.write(f'Change detected at {name}\n')
         if diff_lines:
             log.write('Unified diff (context lines = %d):\n' % 5)
             for line in diff_lines:
