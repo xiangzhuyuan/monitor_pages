@@ -168,3 +168,36 @@ Unified diff (context lines = 5):
 
  おすすめシューズ紹介
 
+
+--- 2025-10-27 05:22:00.481194 ---
+Change detected at www.r-wellness.com_fuji5_
+Unified diff (context lines = 5):
+--- old_www.r-wellness.com_fuji5_
++++ new_www.r-wellness.com_fuji5_
+@@ -19,10 +19,13 @@
+ よくある質問
+
+ お問い合わせ
+
+ 前回大会
+
+ INFORMATION
+
+ お知らせ
+
++10.27
+
++Mon
+
++参加賞先着終了のお知らせ
+
+ 10.24
+
+ Fri
+
+ エントリー開始のお知らせ
+
+ 10.24
+
+ Fri
+
