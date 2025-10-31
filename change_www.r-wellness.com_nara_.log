@@ -286,3 +286,63 @@ Unified diff (context lines = 5):
 
  Fri
 
+
+--- 2025-10-31 15:20:46.305473 ---
+Change detected at www.r-wellness.com_nara_
+Unified diff (context lines = 5):
+--- old_www.r-wellness.com_nara_
++++ new_www.r-wellness.com_nara_
+@@ -17,10 +17,13 @@
+ お問い合わせ
+
+ よくある質問
+
+ お問い合わせ
+
+ INFORMATION
+
+ お知らせ
+
++11.01
+
++Sat
+
++エントリー状況のお知らせ（0:00時点）
+
+ 10.31
+
+ Fri
+
+ エントリー状況のお知らせ（22:55時点）
+
+ 10.31
+
+ Fri
+
+@@ -29,13 +32,10 @@
+ Fri
+
+ エントリー開始のお知らせ
+
+ 10.28
+
+ Tue
+
+ ホテル宿泊プラン（JTB）詳細ページ公開のお知らせ
+
+-10.24
+
+-Fri
+
+-詳細情報公開のお知らせ
+
+ お知らせ一覧へ
+
+ おすすめシューズ紹介
+
+ ウルトラマラソン完走アイテム紹介
+
+ 関連大会
+
+ チャレンジ富士五湖
+
