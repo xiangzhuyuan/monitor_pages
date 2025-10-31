@@ -253,3 +253,36 @@ Unified diff (context lines = 5):
 
  Fri
 
+
+--- 2025-10-31 14:21:19.678335 ---
+Change detected at www.r-wellness.com_nara_
+Unified diff (context lines = 5):
+--- old_www.r-wellness.com_nara_
++++ new_www.r-wellness.com_nara_
+@@ -17,10 +17,13 @@
+ お問い合わせ
+
+ よくある質問
+
+ お問い合わせ
+
+ INFORMATION
+
+ お知らせ
+
++10.31
+
++Fri
+
++エントリー状況のお知らせ（22:55時点）
+
+ 10.31
+
+ Fri
+
+ エントリー状況のお知らせ（21:40時点）
+
+ 10.31
+
+ Fri
+
