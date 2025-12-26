@@ -220,3 +220,63 @@ Unified diff (context lines = 5):
 
  大会前日イベント
 
+
+--- 2025-12-26 01:49:25.371258 ---
+Change detected at www.r-wellness.com_tango_
+Unified diff (context lines = 5):
+--- old_www.r-wellness.com_tango_
++++ new_www.r-wellness.com_tango_
+@@ -27,10 +27,13 @@
+ よくある質問
+
+ お問い合わせ
+
+ 前回大会
+
+ INFORMATION
+
+ お知らせ
+
++12.17
+
++Wed
+
++年末年始休業のお知らせ
+
+ 11.11
+
+ Tue
+
+ 【台湾インフルエンサー】大会レポートの公開
+
+ 10.02
+
+ Thu
+
+@@ -39,13 +42,10 @@
+ Sun
+
+ 速報記録公開のお知らせ
+
+ 09.14
+
+ Sun
+
+ 開催に伴う天候への対応と安全に関するご案内
+
+-09.13
+
+-Sat
+
+-大会直前の最終可否判断について
+
+ お知らせ一覧へ
+
+ おすすめシューズ紹介
+
+ ウルトラマラソン完走アイテム紹介
+
+ Kyotango Bayside Exploration
+
+ 大会前日イベント
+
