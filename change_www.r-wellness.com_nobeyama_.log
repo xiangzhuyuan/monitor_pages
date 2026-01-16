@@ -564,3 +564,63 @@ Unified diff (context lines = 5):
 
  関連大会
 
+
+--- 2026-01-16 04:41:25.628981 ---
+Change detected at www.r-wellness.com_nobeyama_
+Unified diff (context lines = 5):
+--- old_www.r-wellness.com_nobeyama_
++++ new_www.r-wellness.com_nobeyama_
+@@ -21,10 +21,13 @@
+ よくある質問
+
+ お問い合わせ
+
+ 前回大会
+
+ INFORMATION
+
+ お知らせ
+
++01.16
+
++Fri
+
++直行バスのご案内
+
+ 12.17
+
+ Wed
+
+ 年末年始休業のお知らせ
+
+ 12.10
+
+ Wed
+
+@@ -33,13 +36,10 @@
+ Thu
+
+ 宿泊リスト公開のお知らせ
+
+ 11.12
+
+ Wed
+
+ 参加賞先着終了のお知らせ
+
+-11.07
+
+-Fri
+
+-大会ホームページ復旧のお知らせ
+
+ お知らせ一覧へ
+
+ おすすめシューズ紹介
+
+ ウルトラマラソン完走アイテム紹介
+
+ PULSE ARCHIVE
+
+ 関連大会
+
