@@ -1,4 +1,3 @@
-```python
 import json
 import requests
 from pathlib import Path
@@ -36,4 +35,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
