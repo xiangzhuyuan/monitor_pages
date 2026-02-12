@@ -22,7 +22,7 @@ jobs:
         run: pip install requests
 
       - name: Run monitor
-        run: python monitor.py
+        run: python check_parking.py
 
       - name: Commit state if changed
         run: |
