@@ -1,46 +1,39 @@
+```python
+import json
 import requests
-from bs4 import BeautifulSoup
-import re
-import sys
+from pathlib import Path
 
-URL = "https://www.narita-airport.jp/ja/access/parking/"
-BARK_KEY = "Rfaj33ucMe8nZksDJKPEib"
+STATE_FILE = "state.json"
 
+def load_last_state():
+    if Path(STATE_FILE).exists():
+        return json.loads(Path(STATE_FILE).read_text())
+    return {}
 
-def get_p5_status():
-    headers = {"User-Agent": "Mozilla/5.0"}
-    r = requests.get(URL, headers=headers, timeout=10)
-    r.raise_for_status()
-
-    soup = BeautifulSoup(r.text, "html.parser")
-    divs = soup.find_all("div", class_=lambda x: x and x.startswith("styles_p"))
-
-    for div in divs:
-        class_name = " ".join(div.get("class", []))
-        match = re.search(r'styles_(p\d+)-module', class_name)
-        if match and match.group(1).lower() == "p5":
-            bubble = div.find("div", class_=lambda x: x and "bubble" in x)
-            if bubble:
-                return bubble.get_text(strip=True)
-
-    return None
-
+def save_state(state):
+    Path(STATE_FILE).write_text(json.dumps(state, ensure_ascii=False))
 
 def notify():
-    url = f"https://api.day.app/{BARK_KEY}/成田停车/P5空车了"
-    requests.get(url, timeout=5)
-
+    requests.get("https://api.day.app/Rfaj33ucMe8nZksDJKPEib/成田停车/p5空了")
 
 def main():
-    status = get_p5_status()
-    print("Current P5:", status)
+    # 这里替换成你真实抓 P5 的逻辑
+    p5_status = get_p5_status()  # "空車" or "満車"
 
-    if status == "空車":
+    last_state = load_last_state()
+    last_p5 = last_state.get("p5")
+
+    if last_p5 == p5_status:
+        print("No change")
+        return
+
+    print(f"Changed: {last_p5} -> {p5_status}")
+
+    if p5_status == "空車":
         notify()
-        print("Notification sent.")
-    else:
-        print("No notification.")
 
+    save_state({"p5": p5_status})
 
 if __name__ == "__main__":
     main()
+```
