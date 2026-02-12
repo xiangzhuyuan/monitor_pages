@@ -1,4 +1,3 @@
-```yaml
 name: Narita Parking Monitor
 
 on:
@@ -32,4 +31,3 @@ jobs:
           git add state.json
           git diff --cached --quiet || git commit -m "Update parking state"
           git push
-```
