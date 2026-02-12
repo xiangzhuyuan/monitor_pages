@@ -1,37 +1,73 @@
-import json
 import requests
+from bs4 import BeautifulSoup
+import re
+import json
 from pathlib import Path
 
-STATE_FILE = "state.json"
+URL = "https://www.narita-airport.jp/ja/access/parking/"
+BARK_KEY = "Rfaj33ucMe8nZksDJKPEib"
+STATE_FILE = Path("state.json")
+
 
 def load_last_state():
-    if Path(STATE_FILE).exists():
-        return json.loads(Path(STATE_FILE).read_text())
+    if STATE_FILE.exists():
+        return json.loads(STATE_FILE.read_text())
     return {}
 
+
 def save_state(state):
-    Path(STATE_FILE).write_text(json.dumps(state, ensure_ascii=False))
+    STATE_FILE.write_text(json.dumps(state, ensure_ascii=False))
+
+
+def get_p5_status():
+    headers = {"User-Agent": "Mozilla/5.0"}
+    r = requests.get(URL, headers=headers, timeout=10)
+    r.raise_for_status()
+
+    soup = BeautifulSoup(r.text, "html.parser")
+    divs = soup.find_all("div", class_=lambda x: x and x.startswith("styles_p"))
+
+    for div in divs:
+        class_name = " ".join(div.get("class", []))
+        match = re.search(r'styles_(p\d+)-module', class_name)
+        if match and match.group(1).lower() == "p5":
+            bubble = div.find("div", class_=lambda x: x and "bubble" in x)
+            if bubble:
+                return bubble.get_text(strip=True)
+
+    return None
+
 
 def notify():
-    requests.get("https://api.day.app/Rfaj33ucMe8nZksDJKPEib/成田停车/p5空了")
+    url = f"https://api.day.app/{BARK_KEY}/成田停车/P5空车了"
+    requests.get(url, timeout=5)
+
 
 def main():
-    # 这里替换成你真实抓 P5 的逻辑
-    p5_status = get_p5_status()  # "空車" or "満車"
+    status = get_p5_status()
+    print("Current P5:", status)
+
+    if not status:
+        print("Failed to get P5 status")
+        return
 
     last_state = load_last_state()
     last_p5 = last_state.get("p5")
 
-    if last_p5 == p5_status:
-        print("No change")
-        return
+    print(f"Last: {last_p5}, Now: {status}")
 
-    print(f"Changed: {last_p5} -> {p5_status}")
+    # 只有状态变化才处理
+    if last_p5 != status:
+        print("Status changed")
 
-    if p5_status == "空車":
-        notify()
+        if status == "空車":
+            notify()
+            print("Notification sent.")
 
-    save_state({"p5": p5_status})
+        save_state({"p5": status})
+    else:
+        print("No change, no notification.")
+
 
 if __name__ == "__main__":
     main()
