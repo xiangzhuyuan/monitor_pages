@@ -1,12 +1,13 @@
-name: Check Narita Parking
+```yaml
+name: Narita Parking Monitor
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # every 5 minutes (UTC)
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 jobs:
-  check:
+  monitor:
     runs-on: ubuntu-latest
 
     steps:
@@ -16,10 +17,19 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.12"
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      - name: Install deps
+        run: pip install requests
 
-      - name: Run check
-        run: python check_parking.py
+      - name: Run monitor
+        run: python monitor.py
+
+      - name: Commit state if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add state.json
+          git diff --cached --quiet || git commit -m "Update parking state"
+          git push
+```
