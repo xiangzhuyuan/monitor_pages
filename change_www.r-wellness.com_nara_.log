@@ -822,3 +822,63 @@ Unified diff (context lines = 5):
 
  チャレンジ富士五湖
 
+
+--- 2026-03-27 05:08:23.785271 ---
+Change detected at www.r-wellness.com_nara_
+Unified diff (context lines = 5):
+--- old_www.r-wellness.com_nara_
++++ new_www.r-wellness.com_nara_
+@@ -17,10 +17,13 @@
+ お問い合わせ
+
+ よくある質問
+
+ お問い合わせ
+
+ INFORMATION
+
+ お知らせ
+
++03.27
+
++Fri
+
++直行ツアーバスのご案内
+
+ 01.30
+
+ Fri
+
+ ボランティア募集開始
+
+ 12.17
+
+ Wed
+
+@@ -29,13 +32,10 @@
+ Thu
+
+ アクセスバス（JTB）発売のお知らせ
+
+ 11.05
+
+ Wed
+
+ 参加賞についてのお知らせ
+
+-11.01
+
+-Sat
+
+-国内エントリー枠完売のお知らせとお詫び
+
+ お知らせ一覧へ
+
+ おすすめシューズ紹介
+
+ ウルトラマラソン完走アイテム紹介
+
+ 関連大会
+
+ チャレンジ富士五湖
+
