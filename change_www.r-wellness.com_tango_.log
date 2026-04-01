@@ -490,3 +490,36 @@ Unified diff (context lines = 5):
 +© 2025 Runner’s Wellness Co., Ltd. All Rights Reserved.
 
  このサイトの運営・管理は株式会社ランナーズ・ウェルネスがおこなっています。当サイト内の画像・テキストなどの無断転載、使用を禁じます
+
+--- 2026-04-01 05:26:10.566315 ---
+Change detected at www.r-wellness.com_tango_
+Unified diff (context lines = 5):
+--- old_www.r-wellness.com_tango_
++++ new_www.r-wellness.com_tango_
+@@ -21,10 +21,13 @@
+ お問い合わせ
+
+ よくある質問
+
+ 前回大会
+
+ INFORMATION
+
+ -お知らせ-
+
++04.01
+
++Wed
+
++参加賞先着終了のお知らせ
+
+ 02.17
+
+ Tue
+
+ 【重要】「返金保証制度」の廃止について
+
+ 02.17
+
+ Tue
+
