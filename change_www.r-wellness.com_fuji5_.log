@@ -676,3 +676,63 @@ Unified diff (context lines = 5):
 
  大会要項
 
+
+--- 2026-04-08 09:03:33.798922 ---
+Change detected at www.r-wellness.com_fuji5_
+Unified diff (context lines = 5):
+--- old_www.r-wellness.com_fuji5_
++++ new_www.r-wellness.com_fuji5_
+@@ -19,10 +19,13 @@
+ よくある質問
+
+ お問い合わせ
+
+ 前回大会
+
+ INFORMATION
+
+ お知らせ
+
++04.08
+
++Wed
+
++グループトライアル最終名簿掲載のお知らせ
+
+ 03.31
+
+ Tue
+
+ マッサージブースについて
+
+ 03.31
+
+ Tue
+
+@@ -31,13 +34,10 @@
+ Sat
+
+ 参加案内公開のお知らせ
+
+ 01.26
+
+ Mon
+
+ ボランティア募集開始
+
+-12.17
+
+-Wed
+
+-年末年始休業のお知らせ
+
+ お知らせ一覧へ
+
+ おすすめシューズ紹介
+
+ ウルトラマラソン完走アイテム紹介
+
+ PULSE ARCHIVE
+
+ 関連大会
+
