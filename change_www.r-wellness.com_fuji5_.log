@@ -736,3 +736,34 @@ Unified diff (context lines = 5):
 
  関連大会
 
+
+--- 2026-04-08 10:58:24.227343 ---
+Change detected at www.r-wellness.com_fuji5_
+Unified diff (context lines = 5):
+--- old_www.r-wellness.com_fuji5_
++++ new_www.r-wellness.com_fuji5_
+@@ -21,11 +21,11 @@
+ 前回大会
+
+ INFORMATION
+
+ お知らせ
+
+ 04.08
+
+ Wed
+
+-グループトライアル最終名簿掲載のお知らせ
+
++グループトライアル名簿掲載のお知らせ
+
+ 03.31
+
+ Tue
+
+ マッサージブースについて
+
+ 03.31
+
+ Tue
+
