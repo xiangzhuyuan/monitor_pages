@@ -713,3 +713,22 @@ Unified diff (context lines = 5):
 
  前回大会
 
+
+--- 2026-04-15 11:00:35.276680 ---
+Change detected at www.r-wellness.com_nobeyama_
+Unified diff (context lines = 5):
+--- old_www.r-wellness.com_nobeyama_
++++ new_www.r-wellness.com_nobeyama_
+@@ -72,6 +72,6 @@
+ 伴走者
+
+ お知らせ一覧
+
+ ボランティア
+
+ よくある質問
+
+ 前回大会
+
+-© 2026 Runner’s Wellness  Co., Ltd. All Rights Reserved.
++© 2026 Runner’s Wellness Co., Ltd. All Rights Reserved.
