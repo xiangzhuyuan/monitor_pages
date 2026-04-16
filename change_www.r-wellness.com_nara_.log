@@ -942,3 +942,22 @@ Unified diff (context lines = 5):
 
  チャレンジ富士五湖
 
+
+--- 2026-04-16 09:21:42.508000 ---
+Change detected at www.r-wellness.com_nara_
+Unified diff (context lines = 5):
+--- old_www.r-wellness.com_nara_
++++ new_www.r-wellness.com_nara_
+@@ -64,6 +64,6 @@
+ U25応援プラン
+
+ 伴走
+
+ お知らせ一覧
+
+ ボランティア
+
+ よくある質問
+
+-© 2026 Runner’s Wellness  Co., Ltd. All Rights Reserved.
++© 2026 Runner’s Wellness Co., Ltd. All Rights Reserved.
