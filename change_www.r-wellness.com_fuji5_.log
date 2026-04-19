@@ -1148,3 +1148,63 @@ Unified diff (context lines = 5):
 
  関連大会
 
+
+--- 2026-04-19 11:36:14.519569 ---
+Change detected at www.r-wellness.com_fuji5_
+Unified diff (context lines = 5):
+--- old_www.r-wellness.com_fuji5_
++++ new_www.r-wellness.com_fuji5_
+@@ -19,10 +19,13 @@
+ よくある質問
+
+ お問い合わせ
+
+ 前回大会
+
+ INFORMATION
+
+ お知らせ
+
++04.19
+
++Sun
+
++速報記録公開のお知らせ
+
+ 04.18
+
+ Sat
+
+ 大会開催のお知らせ
+
+ 04.18
+
+ Sat
+
+@@ -31,13 +34,10 @@
+ Fri
+
+ 大会直前の第１回可否判断について
+
+ 04.15
+
+ Wed
+
+ グループトライアル最終名簿掲載のお知らせ
+
+-04.13
+
+-Mon
+
+-ランナー応援追跡サービス  Runportライブのご案内
+
+ お知らせ一覧へ
+
+ おすすめシューズ紹介
+
+ ウルトラマラソン完走アイテム紹介
+
+ PULSE ARCHIVE
+
+ 関連大会
+
