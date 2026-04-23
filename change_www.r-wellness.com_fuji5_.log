@@ -1291,3 +1291,32 @@ Unified diff (context lines = 5):
 
  関連大会
 
+
+--- 2026-04-23 02:47:29.163439 ---
+Change detected at www.r-wellness.com_fuji5_
+Unified diff (context lines = 5):
+--- old_www.r-wellness.com_fuji5_
++++ new_www.r-wellness.com_fuji5_
+@@ -12,10 +12,11 @@
+ ランナー
+
+ エントリー
+
+ U25応援プラン
+
+ SPARTATHLON出場権利について
+
+ 伴走・グループトライアル
+
++ランナー向けお買い得サービス
+
+ ボランティア
+
+ お問い合わせ
+
+ よくある質問
+
+ お問い合わせ
+
+ 前回大会
+
