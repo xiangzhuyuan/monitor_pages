@@ -1021,3 +1021,57 @@ Unified diff (context lines = 5):
 
  チャレンジ富士五湖
 
+
+--- 2026-05-04 09:21:07.760933 ---
+Change detected at www.r-wellness.com_nara_
+Unified diff (context lines = 5):
+--- old_www.r-wellness.com_nara_
++++ new_www.r-wellness.com_nara_
+@@ -47,23 +47,8 @@
+ 山陰海岸ユネスコ世界ジオパーク
+
+ 丹後100kmウルトラマラソン
+
+ 奈良ウルトラマラソン
+
+ 大会事務局
+
+ TEL 0120-846-024
+
+-(午前10時～午後5時30分　土日祝休業）
+
++午前10時～午後5時30分　土日祝休業
+
+ お問い合わせ
+
+-エントリーはこちら
+
+-大会情報
+
+-大会要項
+
+-コース情報
+
+-給水情報
+
+-大会の特徴
+
+-アクセス・宿泊
+
+-スポンサー
+
+-ランナー
+
+-エントリー
+
+-U25応援プラン
+
+-伴走
+
+-お知らせ一覧
+
+-ボランティア
+
+-よくある質問
+
+ © 2026 Runner’s Wellness Co., Ltd. All Rights Reserved.
