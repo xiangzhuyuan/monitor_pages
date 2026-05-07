@@ -923,3 +923,32 @@ Unified diff (context lines = 5):
 
  関連大会
 
+
+--- 2026-05-07 09:33:38.333786 ---
+Change detected at www.r-wellness.com_nobeyama_
+Unified diff (context lines = 5):
+--- old_www.r-wellness.com_nobeyama_
++++ new_www.r-wellness.com_nobeyama_
+@@ -13,10 +13,11 @@
+ スポンサー
+
+ ランナー
+
+ エントリー
+
+ U25応援プラン
+
+ 伴走者
+
++ランナー向けお買い得サービス
+
+ 前日イベント
+
+ ちびっこマラソン
+
+ NOBEYAMA わんRUN
+
+ うるとらフェスティバル
+
+ ボランティア
+
