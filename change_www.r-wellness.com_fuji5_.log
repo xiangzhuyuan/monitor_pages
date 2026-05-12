@@ -1380,3 +1380,63 @@ Unified diff (context lines = 5):
 
  関連大会
 
+
+--- 2026-05-12 04:35:35.179550 ---
+Change detected at www.r-wellness.com_fuji5_
+Unified diff (context lines = 5):
+--- old_www.r-wellness.com_fuji5_
++++ new_www.r-wellness.com_fuji5_
+@@ -20,10 +20,13 @@
+ よくある質問
+
+ お問い合わせ
+
+ 前回大会
+
+ INFORMATION
+
+ お知らせ
+
++05.12
+
++Tue
+
++確報記録公開のお知らせ
+
+ 04.27
+
+ Mon
+
+ ゴールデンウィーク期間 会社休業日のお知らせ
+
+ 04.20
+
+ Mon
+
+@@ -32,13 +35,10 @@
+ Sun
+
+ 速報記録公開のお知らせ
+
+ 04.18
+
+ Sat
+
+ 大会開催のお知らせ
+
+-04.18
+
+-Sat
+
+-【北麓リレー】開催のお知らせ
+
+ お知らせ一覧へ
+
+ おすすめシューズ紹介
+
+ ウルトラマラソン完走アイテム紹介
+
+ PULSE ARCHIVE
+
+ 関連大会
+
