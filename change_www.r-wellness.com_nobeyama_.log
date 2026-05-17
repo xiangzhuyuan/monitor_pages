@@ -1394,3 +1394,34 @@ Unified diff (context lines = 5):
 
  関連大会
 
+
+--- 2026-05-17 13:23:56.467916 ---
+Change detected at www.r-wellness.com_nobeyama_
+Unified diff (context lines = 5):
+--- old_www.r-wellness.com_nobeyama_
++++ new_www.r-wellness.com_nobeyama_
+@@ -27,11 +27,11 @@
+ 前回大会
+
+ INFORMATION
+
+ お知らせ
+
+ 05.17
+
+ Sun
+
+-速報記録公開のお知らせ
+
++大会開催の御礼と速報記録公開
+
+ 05.16
+
+ Sat
+
+ 大会開催のお知らせ
+
+ 05.16
+
+ Sat
+
