@@ -1273,3 +1273,62 @@ Unified diff (context lines = 5):
 
  チャレンジ富士五湖
 
+
+--- 2026-05-22 09:28:33.585944 ---
+Change detected at www.r-wellness.com_nara_
+Unified diff (context lines = 5):
+--- old_www.r-wellness.com_nara_
++++ new_www.r-wellness.com_nara_
+@@ -22,23 +22,23 @@
+ 参加案内はこちら
+
+ INFORMATION
+
+ お知らせ
+
+ 05.22
+
+ Fri
+
++お買物券配布のご案内
+
++05.22
+
++Fri
+
+ 歓迎のことば 公開のお知らせ
+
+ 05.08
+
+ Fri
+
+ 伴走者登録のご案内
+
+ 05.08
+
+ Fri
+
+ 「コース攻略クリニック」YouTube LIVE配信のお知らせ
+
+ 05.08
+
+ Fri
+
+ 参加案内公開のお知らせ
+
+-04.27
+
+-Mon
+
+-ゴールデンウィーク期間 会社休業日のお知らせ
+
+ お知らせ一覧へ
+
+ おすすめシューズ紹介
+
+ ウルトラマラソン完走アイテム紹介
+
+ 関連大会
+
+ チャレンジ富士五湖
+
