@@ -1660,3 +1660,26 @@ Unified diff (context lines = 5):
 
  チャレンジ富士五湖
 
+
+--- 2026-06-10 14:23:16.710221 ---
+Change detected at www.r-wellness.com_nara_
+Unified diff (context lines = 5):
+--- old_www.r-wellness.com_nara_
++++ new_www.r-wellness.com_nara_
+@@ -1,7 +1,7 @@
+ 第1回奈良ウルトラマラソン | 奈良中南部の文化遺産を駆ける  2026.05.31sun 開催
+
+-参加案内
+
++速報
+
+ CONTACT
+
+ お知らせ一覧
+
+ 参加案内
+
+ 大会情報
+
+ 大会要項
+
