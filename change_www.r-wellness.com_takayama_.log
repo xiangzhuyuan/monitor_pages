@@ -1067,3 +1067,63 @@ Unified diff (context lines = 5):
 
  チャレンジ富士五湖
 
+
+--- 2026-06-13 03:56:32.374249 ---
+Change detected at www.r-wellness.com_takayama_
+Unified diff (context lines = 5):
+--- old_www.r-wellness.com_takayama_
++++ new_www.r-wellness.com_takayama_
+@@ -25,10 +25,13 @@
+ 前回大会
+
+ 【重要】
+
+ 大会当日の交通規制についてはこちら
+
+ INFORMATION
+
+ お知らせ
+
++06.13
+
++Sat
+
++ボランティア活動に関するご案内
+
+ 06.12
+
+ Fri
+
+ 大会直前の第１回可否判断について
+
+ 06.12
+
+ Fri
+
+@@ -37,13 +40,10 @@
+ Fri
+
+ 【71km】駐車場のご案内（駐車証表記・駐車場へのルートのお願い）
+
+ 05.22
+
+ Fri
+
+ 伴走者登録のご案内
+
+-05.22
+
+-Fri
+
+-参加案内ページ公開のお知らせ
+
+ お知らせ一覧へ
+
+ おすすめシューズ紹介
+
+ ウルトラマラソン完走アイテム紹介
+
+ 関連大会
+
+ チャレンジ富士五湖
+
