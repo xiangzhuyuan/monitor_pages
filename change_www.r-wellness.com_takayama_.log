@@ -1246,3 +1246,26 @@ Unified diff (context lines = 5):
 
  チャレンジ富士五湖
 
+
+--- 2026-06-14 14:06:11.888201 ---
+Change detected at www.r-wellness.com_takayama_
+Unified diff (context lines = 5):
+--- old_www.r-wellness.com_takayama_
++++ new_www.r-wellness.com_takayama_
+@@ -1,7 +1,7 @@
+ 第14回 飛騨高山ウルトラマラソン | 2026年6月14日（日）開催
+
+-参加案内
+
++速報
+
+ CONTACT
+
+ お知らせ一覧
+
+ 交通規制
+
+ 大会情報
+
+ 大会要項
+
