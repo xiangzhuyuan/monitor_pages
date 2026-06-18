@@ -1269,3 +1269,32 @@ Unified diff (context lines = 5):
 
  大会要項
 
+
+--- 2026-06-18 09:15:52.769583 ---
+Change detected at www.r-wellness.com_takayama_
+Unified diff (context lines = 5):
+--- old_www.r-wellness.com_takayama_
++++ new_www.r-wellness.com_takayama_
+@@ -1,10 +1,11 @@
+ 第14回 飛騨高山ウルトラマラソン | 2026年6月14日（日）開催
+
+ 速報
+
+ CONTACT
+
+ お知らせ一覧
+
+ 交通規制
+
++参加案内
+
+ 大会情報
+
+ 大会要項
+
+ 歓迎のことば
+
+ コース情報
+
+ 給水情報
+
