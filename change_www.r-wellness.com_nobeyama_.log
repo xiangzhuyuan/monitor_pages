@@ -1963,3 +1963,59 @@ Unified diff (context lines = 5):
 
  ホームページ公開のお知らせ
 
+
+--- 2026-11-06 15:43:57.487444 ---
+Change detected at www.r-wellness.com_nobeyama_
+Unified diff (context lines = 5):
+--- old_www.r-wellness.com_nobeyama_
++++ new_www.r-wellness.com_nobeyama_
+@@ -6,10 +6,11 @@
+ ABOUT
+
+ 大会について
+
+ どんな大会？
+
+ 初心者ガイド
+
+ 大会要項
+
++スポンサー
+
+ RACE
+
+ レースについて
+
+ コース情報
+
+ スケジュール
+
+ 事前準備
+
+@@ -57,10 +58,13 @@
+ 25歳以下の挑戦を応援
+
+ ENTRY 20%OFF
+
+ ＞
+
+ INFORMATION
+
+ お知らせ
+
++2026.11.06
+
++参加賞 オリジナルTシャツ先着受付終了のお知らせ（11/6時点）
+
++›
+
+ 2026.11.04
+
+ エントリーサイト変更に関するお知らせ
+
+ ›
+
+ 2026.10.28
+
+ 伴走者登録についてのご案内
+
