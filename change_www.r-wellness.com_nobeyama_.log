@@ -2173,3 +2173,87 @@ Unified diff (context lines = 5):
 
  まずはここから
 
+
+--- 2026-11-27 13:41:04.230538 ---
+Change detected at www.r-wellness.com_nobeyama_
+Unified diff (context lines = 5):
+--- old_www.r-wellness.com_nobeyama_
++++ new_www.r-wellness.com_nobeyama_
+@@ -24,11 +24,11 @@
+ 前日イベント
+
+ よくある質問
+
+ 前回大会
+
+ CONTACT
+
+ ー INFORMATION ー
+
+-一般種目エントリー受付終了のお知らせ
+
++二次エントリーのご案内
+
+ NOBEYAMA ULTRAMARATHON
+
+ ENTRY STARTS IN
+
+ DAYS
+
+ 000
+
+ :
+
+@@ -57,23 +57,23 @@
+ ENTRY 20%OFF
+
+ ＞
+
+ INFORMATION
+
+ お知らせ
+
+ 2026.11.27
+
++【ボランティア募集開始】第33回 野辺山ウルトラマラソン
+
++›
+
++2026.11.27
+
+ 二次エントリーのご案内
+
+ ›
+
+ 2026.11.10
+
+ 宿泊施設情報の公開のお知らせ
+
+ ›
+
+ 2026.11.09
+
+ 一般種目 エントリー受付終了のお知らせ
+
+ ›
+
+ 2026.11.06
+
+ 参加賞 オリジナルTシャツ先着受付終了のお知らせ（11/6時点）
+
+-›
+
+-2026.11.04
+
+-エントリーサイト変更に関するお知らせ
+
+ ›
+
+ お知らせ一覧
+
+ ›
+
+ PICK UP
+
+ まずはここから
+
